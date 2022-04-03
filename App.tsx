@@ -12,10 +12,10 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.base}>
-        <Text style={{ color: '#33c', fontSize: 42 }}>Lager-Appen</Text>
-        <Image source={warehouse} style={{ width: 320, height: 240 }} />
+        <Text style={{ color: 'black', fontSize: 32, paddingLeft: 90}}>Lager-Appen</Text>
+        <Image source={warehouse} style={{ width: 367, height: 200 }} />
         <Stock />
-        <StatusBar style="auto" />
+        <StatusBar style="auto"/>
       </View>
     </SafeAreaView>
   );
@@ -27,8 +27,8 @@ const styles = StyleSheet.create({
   },
   base: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'white',
     paddingLeft: 12,
     paddingRight: 12,
-  }
+  },
 });
